@@ -8,7 +8,7 @@ class ControllerExtensionModuleCarousel extends Controller {
 		
 		$this->document->addStyle('catalog/view/javascript/jquery/swiper/css/swiper.min.css');
 		$this->document->addStyle('catalog/view/javascript/jquery/swiper/css/opencart.css');
-		$this->document->addScript('catalog/view/javascript/jquery/swiper/js/swiper.jquery.js');
+		$this->document->addScript('https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js');
 
 		$data['banners'] = array();
 
