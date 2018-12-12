@@ -71,3 +71,4 @@
 2018-12-09 9:20:00 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
 2018-12-09 9:20:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
 2018-12-09 9:20:00 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-11 16:06:59 - PHP Notice:  Undefined index: route in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 6
