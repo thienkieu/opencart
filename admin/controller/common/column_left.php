@@ -233,6 +233,27 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => $design
 				);	
 			}
+
+			// Megamenu
+			$megamenu = array();
+			
+			//if ($this->user->hasPermission('access', 'megamenu/column_item')) {
+				$megamenu[] = array(
+					'name'	   => $this->language->get('text_megamenu_column_item'),
+					'href'     => $this->url->link('megamenu/column_item', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);	
+			//}
+					
+			if ($megamenu) {
+				$data['menus'][] = array(
+					'id'       => 'menu-megamenu',
+					'icon'	   => 'fa-television', 
+					'name'	   => $this->language->get('text_megamenu'),
+					'href'     => '',
+					'children' => $megamenu
+				);	
+			}
 			
 			// Sales
 			$sale = array();
