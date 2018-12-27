@@ -18,6 +18,10 @@ $_['entry_width']      = 'Width';
 $_['entry_height']     = 'Height';
 $_['entry_status']     = 'Status';
 
+$_['entry_column_item_name']     = 'Item name';
+$_['entry_column_item_link']     = 'Item link';
+$_['entry_column_item_image']     = 'Item imgage';
+
 
 // Error
 $_['error_permission'] = 'Warning: You do not have permission to modify megamenu item module!';

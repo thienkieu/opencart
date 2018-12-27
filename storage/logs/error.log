@@ -261,3 +261,272 @@
 2018-12-17 15:52:19 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
 2018-12-17 15:52:19 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
 2018-12-17 15:52:19 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-23 7:11:13 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545552673): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-23 7:11:13 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-23 7:11:13 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-23 7:11:13 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-23 7:11:13 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-23 7:11:13 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-23 7:15:20 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545552920): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-23 7:15:20 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-23 7:15:20 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-23 7:15:20 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-23 7:15:20 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-23 7:15:20 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-23 8:03:44 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545555824): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-23 8:03:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-23 8:03:44 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-23 8:03:44 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-23 8:03:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-23 8:03:44 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 15:47:18 - PHP Warning:  Division by zero in D:\Projects\product\admin\model\localisation\currency.php on line 141
+2018-12-24 15:47:18 - PHP Warning:  Division by zero in D:\Projects\product\admin\model\localisation\currency.php on line 141
+2018-12-24 15:47:18 - PHP Warning:  Division by zero in D:\Projects\product\admin\model\localisation\currency.php on line 141
+2018-12-24 15:50:04 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545670204): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 15:50:04 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 15:50:04 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 15:50:04 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 15:50:04 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 15:50:04 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 15:51:01 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545670261): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 15:51:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 15:51:01 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 15:51:01 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 15:51:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 15:51:01 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 15:52:39 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545670359): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 15:52:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 15:52:39 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 15:52:39 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 15:52:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 15:52:39 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 15:55:00 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545670500): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 15:55:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 15:55:00 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 15:55:00 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 15:55:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 15:55:00 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 15:57:39 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545670659): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 15:57:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 15:57:39 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 15:57:39 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 15:57:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 15:57:39 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 15:59:17 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545670757): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 15:59:17 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 15:59:17 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 15:59:17 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 15:59:17 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 15:59:17 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 16:00:39 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545670839): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 16:00:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 16:00:39 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 16:00:39 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 16:00:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 16:00:39 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 16:04:26 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545671066): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 16:04:26 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 16:04:26 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 16:04:26 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 16:04:26 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 16:04:26 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 16:05:27 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545671127): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 16:05:27 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 16:05:27 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 16:05:27 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 16:05:27 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 16:05:27 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 16:13:22 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545671602): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 16:13:22 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 16:13:22 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 16:13:22 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 16:13:22 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 16:13:22 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 16:13:47 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545671627): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 16:13:47 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 16:13:47 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 16:13:47 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 16:13:47 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 16:13:47 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 16:17:22 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545671842): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 16:17:22 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 16:17:22 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 16:17:22 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 16:17:22 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 16:17:22 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 16:17:53 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545671873): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 16:17:53 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 16:17:53 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 16:17:53 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 16:17:53 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 16:17:53 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 16:19:16 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545671956): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 16:19:16 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 16:19:16 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 16:19:16 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 16:19:16 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 16:19:16 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 16:20:33 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545672033): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 16:20:33 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 16:20:33 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 16:20:33 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 16:20:33 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 16:20:33 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-24 16:23:12 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545672192): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-24 16:23:12 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-24 16:23:12 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-24 16:23:12 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-24 16:23:12 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-24 16:23:12 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 14:27:05 - PHP Notice:  Undefined index: megamenu_id in D:\Projects\product\admin\controller\extension\module\megamenu.php on line 95
+2018-12-27 14:27:12 - PHP Notice:  Undefined index: megamenu_id in D:\Projects\product\admin\controller\extension\module\megamenu.php on line 95
+2018-12-27 14:54:32 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545926072): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 14:54:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 14:54:32 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 14:54:32 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 14:54:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 14:54:32 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 14:56:08 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545926168): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 14:56:08 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 14:56:08 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 14:56:08 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 14:56:08 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 14:56:08 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 14:59:31 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545926371): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 14:59:31 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 14:59:31 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 14:59:31 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 14:59:31 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 14:59:31 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:11:35 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545927095): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:11:35 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:11:35 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:11:35 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:11:35 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:11:35 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:14:03 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545927243): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:14:03 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:14:03 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:14:03 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:14:03 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:14:03 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:14:42 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545927282): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:14:42 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:14:42 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:14:42 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:14:42 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:14:42 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:15:10 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545927310): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:15:10 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:15:10 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:15:10 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:15:10 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:15:10 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:15:33 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545927333): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:15:33 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:15:33 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:15:33 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:15:33 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:15:33 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:18:03 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545927483): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:18:03 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:18:03 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:18:03 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:18:03 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:18:03 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:21:34 - PHP Notice:  Undefined index: menuItems in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 107
+2018-12-27 15:21:41 - PHP Notice:  Undefined index: menuItems in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 107
+2018-12-27 15:22:15 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545927735): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:22:15 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:22:15 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:22:15 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:22:15 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:22:15 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:31:09 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545928269): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:31:09 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:31:09 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:31:09 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:31:09 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:31:09 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:40:47 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545928847): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:40:47 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:40:47 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:40:47 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:40:47 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:40:47 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:46:59 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545929219): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:46:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:46:59 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:46:59 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:46:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:46:59 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:48:17 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545929297): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:48:17 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:48:17 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:48:17 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:48:17 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:48:17 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 15:56:48 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545929808): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 15:56:48 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 15:56:48 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 15:56:48 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 15:56:48 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 15:56:48 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 16:04:33 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545930273): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 16:04:33 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 16:04:33 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 16:04:33 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 16:04:33 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 16:04:33 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 16:05:39 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545930339): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 16:05:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 16:05:39 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 16:05:39 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 16:05:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 16:05:39 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 16:06:59 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545930419): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 16:06:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 16:06:59 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 16:06:59 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 16:06:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 16:06:59 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 16:07:30 - PHP Notice:  Undefined index: menuItems in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 107
+2018-12-27 16:07:30 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 114
+2018-12-27 16:07:41 - PHP Notice:  Undefined index: menuItems in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 107
+2018-12-27 16:07:41 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 114
+2018-12-27 16:07:52 - PHP Notice:  Undefined index: menuItems in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 107
+2018-12-27 16:07:52 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 114
+2018-12-27 16:09:07 - PHP Notice:  Undefined index: menuItems in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 107
+2018-12-27 16:09:07 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 114
+2018-12-27 16:09:43 - PHP Notice:  Undefined index: menuItems in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 107
+2018-12-27 16:09:43 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 114
+2018-12-27 16:10:51 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545930651): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 16:10:51 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 16:10:51 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 16:10:51 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 16:10:51 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 16:10:51 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 16:13:21 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545930801): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 16:13:21 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 16:13:21 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 16:13:21 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 16:13:21 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 16:13:21 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 16:14:11 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545930851): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 16:14:11 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 16:14:11 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 16:14:11 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 16:14:11 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 16:14:11 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 16:14:50 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545930890): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 16:14:50 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 16:14:50 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 16:14:50 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 16:14:50 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 16:14:50 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2018-12-27 16:17:21 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1545931041): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2018-12-27 16:17:21 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2018-12-27 16:17:21 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2018-12-27 16:17:21 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2018-12-27 16:17:21 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2018-12-27 16:17:21 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59

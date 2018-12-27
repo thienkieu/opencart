@@ -16,6 +16,8 @@ class ControllerExtensionModuleMegamenuColumn extends Controller {
 				$this->model_setting_module->editModule($this->request->get['module_id'], $this->request->post);
 			}
 
+			
+
 			$this->session->data['success'] = $this->language->get('text_success');
 
 			$this->response->redirect($this->url->link('marketplace/extension', 'user_token=' . $this->session->data['user_token'] . '&type=module', true));
@@ -99,6 +101,24 @@ class ControllerExtensionModuleMegamenuColumn extends Controller {
 			$data['link'] = '';
 		}
 
+		if (isset($this->request->post['menuItems'])) {
+			$data['menuItems'] = $this->request->post['menuItems'];
+		} elseif (!empty($module_info)) {
+			$data['menuItems'] = $module_info['menuItems'];
+		} else {
+			$data['menuItems'] = [];
+		}
+
+		$this->load->model('tool/image');
+		$menuItems = [];
+		foreach ($data['menuItems'] as $item) {
+			if (isset($item['item_image']) && is_file(DIR_IMAGE . $item['item_image'])) {
+				$item['thumb'] = $this->model_tool_image->resize($item['item_image'], 100, 100);
+			}
+			$menuItems[] = $item;
+		}
+		$data['menuItems'] = $menuItems;
+		
 		if (isset($this->request->post['type'])) {
 			$data['type'] = $this->request->post['type'];
 		} elseif (!empty($module_info)) {
