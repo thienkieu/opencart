@@ -101,9 +101,35 @@ class ControllerExtensionModuleMegamenuColumn extends Controller {
 			$data['link'] = '';
 		}
 
+		$data['imageFolder'] = DIR_IMAGE;
+		if (isset($this->request->post['icon'])) {
+			$data['icon'] = $this->request->post['icon'];
+		} elseif (!empty($module_info)) {
+			$data['icon'] = $module_info['icon'];
+		} else {
+			$data['icon'] = '';
+		}
+		
+		if (isset($this->request->post['type'])) {
+			$data['type'] = $this->request->post['type'];
+		} elseif (!empty($module_info)) {
+			$data['type'] = $module_info['type'];
+		} else {
+			$data['type'] = '';
+		}
+
+
+		if (isset($this->request->post['status'])) {
+			$data['status'] = $this->request->post['status'];
+		} elseif (!empty($module_info)) {
+			$data['status'] = $module_info['status'];
+		} else {
+			$data['status'] = '';
+		}
+
 		if (isset($this->request->post['menuItems'])) {
 			$data['menuItems'] = $this->request->post['menuItems'];
-		} elseif (!empty($module_info)) {
+		} elseif (!empty($module_info) && isset($module_info['menuItems'])) {
 			$data['menuItems'] = $module_info['menuItems'];
 		} else {
 			$data['menuItems'] = [];
@@ -118,44 +144,21 @@ class ControllerExtensionModuleMegamenuColumn extends Controller {
 			$menuItems[] = $item;
 		}
 		$data['menuItems'] = $menuItems;
+
+		$listModules = $this->getList();
+		$data['listModule'] = json_encode($listModules);
 		
-		if (isset($this->request->post['type'])) {
-			$data['type'] = $this->request->post['type'];
+		if (isset($this->request->post['product_category'])) {
+			$selectedModules = $this->request->post['product_category'];
 		} elseif (!empty($module_info)) {
-			$data['type'] = $module_info['type'];
+			$selectedModules = $module_info['product_category'];
 		} else {
-			$data['type'] = '';
+			$selectedModules = [];
 		}
 
-		$this->load->model('catalog/product');
-
-		$data['products'] = array();
-
-		if (!empty($this->request->post['product'])) {
-			$products = $this->request->post['product'];
-		} elseif (!empty($module_info['product'])) {
-			$products = $module_info['product'];
-		} else {
-			$products = array();
-		}
-
-		foreach ($products as $product_id) {
-			$product_info = $this->model_catalog_product->getProduct($product_id);
-
-			if ($product_info) {
-				$data['products'][] = array(
-					'product_id' => $product_info['product_id'],
-					'name'       => $product_info['name']
-				);
-			}
-		}
-
-		if (isset($this->request->post['status'])) {
-			$data['status'] = $this->request->post['status'];
-		} elseif (!empty($module_info)) {
-			$data['status'] = $module_info['status'];
-		} else {
-			$data['status'] = '';
+		$data['product_categories'] = [];
+		foreach ($selectedModules as $module) {
+			$data['product_categories'][] = $this->getModuleById($module, $listModules);
 		}
 
 		$data['header'] = $this->load->controller('common/header');
@@ -179,5 +182,43 @@ class ControllerExtensionModuleMegamenuColumn extends Controller {
 		}
 
 		return !$this->error;
+	}
+
+	
+	protected function getList(){
+		$extensions = ['megamenu_column'];
+		$module_data = [];
+		foreach($extensions as $extension) {
+			$modules = $this->model_setting_module->getModulesByCode($extension);
+			foreach ($modules as $module) {
+				if ($module['setting']) {
+					$setting_info = json_decode($module['setting'], true);
+				} else {
+					$setting_info = array();
+				}
+				
+				$module_data[] = array(
+					'value' => $module['module_id'],
+					'label'      => $module['name']
+				);
+			}
+
+			
+		}
+		
+		return $module_data;
+	}
+
+
+	protected function getModuleById($id, $listModules){
+		foreach ($listModules as $module) {
+			if ($module['value'] == $id) {
+				$ret = new stdClass();
+				$ret->value = $module['value'];
+				$ret->label = $module['label'];
+				return $ret;
+			}
+		}
+		return null;
 	}
 }

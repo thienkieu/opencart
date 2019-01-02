@@ -17,6 +17,9 @@ $_['entry_dimension']  = 'Dimension (W x H) and Resize Type';
 $_['entry_width']      = 'Width';
 $_['entry_height']     = 'Height';
 $_['entry_status']     = 'Status';
+$_['entry_category']   = 'Sub menu';
+$_['entry_icon']       = 'Icon';
+
 
 $_['entry_column_item_name']     = 'Item name';
 $_['entry_column_item_link']     = 'Item link';

@@ -125,7 +125,9 @@ class ControllerExtensionModuleMegamenu extends Controller {
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
-
+		$data['listModule'] = $this->getList();
+		$data['user_token'] = $this->session->data['user_token'];
+		
 		$this->response->setOutput($this->load->view('extension/module/megamenu', $data));
 	}
 
@@ -147,5 +149,29 @@ class ControllerExtensionModuleMegamenu extends Controller {
 		}
 
 		return !$this->error;
+	}
+
+	protected function getList(){
+		$extensions = ['megamenu_column', 'megamenu'];
+		$module_data = [];
+		foreach($extensions as $extension) {
+			$modules = $this->model_setting_module->getModulesByCode($extension);
+			foreach ($modules as $module) {
+				if ($module['setting']) {
+					$setting_info = json_decode($module['setting'], true);
+				} else {
+					$setting_info = array();
+				}
+				
+				$module_data[] = array(
+					'value' => $module['module_id'],
+					'label'      => $module['name']
+				);
+			}
+
+			
+		}
+		
+		return json_encode($module_data);
 	}
 }
