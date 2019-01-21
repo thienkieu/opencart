@@ -744,3 +744,35 @@ h2.price {
     background-image: none;
     background-color: #df5c39;
 }
+
+/*------------------------------------------------------*/
+
+.shopping_cart .top_cart {
+    display: block;
+    position: relative;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    background: url(../../images/icon/bags.png) no-repeat left center;
+    cursor: pointer;
+    top: -5px;
+    padding-left: 80px;
+}
+
+.shopping_cart .top_cart span.number {
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    border: 2px solid #fff;
+    line-height: 27px;
+    text-align: center;
+    background: #3f9dd3;
+    color: #fff;
+    position: absolute;
+    bottom: -12px;
+    left: 36px;
+}
+
+.shopping_cart .top_cart span.number .items_cart2, 
+.shopping_cart .top_cart span.number .items_carts {
+    display: none;
+}

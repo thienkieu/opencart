@@ -1,5 +1,15 @@
-<div id="cart" class="btn-group btn-block">
-  <button type="button" data-toggle="dropdown" data-loading-text="{{ text_loading }}" class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="fa fa-shopping-cart"></i> <span id="cart-total">{{ text_items }}</span></button>
+<div id="cart" class="btn-group btn-block shopping_cart">
+  <a data-loading-text="{{ text_loading }}" class="btn-group top_cart dropdown-toggle" data-toggle="dropdown">
+    <div class="shopcart">
+    <span class="handle pull-left"></span>
+		<h3 class="title-mod">
+			My cart    
+		</h3>
+		<span class="number total-shopping-cart cart-total-full"><span class="items_cart">{{ product_count }}</span><span class="items_cart2">item(s)</span><span class="items_carts"> - {{ prices }}</span></span>
+		<span class="text total-shopping-cart cart-total-full"><span class="items_cart">{{ product_count }}</span><span class="items_cart2">item(s)</span><span class="items_carts"> - {{ prices }}</span></span>
+    </div>
+  </a>
+  
   <ul class="dropdown-menu pull-right">
     {% if products or vouchers %}
     <li>
@@ -15,7 +25,9 @@
             - <small>{{ text_recurring }} {{ product.recurring }}</small> {% endif %}</td>
           <td class="text-right">x {{ product.quantity }}</td>
           <td class="text-right">{{ product.total }}</td>
-          <td class="text-center"><button type="button" onclick="cart.remove('{{ product.cart_id }}');" title="{{ button_remove }}" class="btn btn-danger btn-xs"><i class="fa fa-times"></i></button></td>
+          <td class="text-center">
+            <a onclick="cart.remove('{{ product.cart_id }}');" class="fa fa-trash-o" style="padding:3px;"></a>
+          </td>
         </tr>
         {% endfor %}
         {% for voucher in vouchers %}
@@ -30,16 +42,9 @@
       </table>
     </li>
     <li>
-      <div>
-        <table class="table table-bordered">
-          {% for total in totals %}
-          <tr>
-            <td class="text-right"><strong>{{ total.title }}</strong></td>
-            <td class="text-right">{{ total.text }}</td>
-          </tr>
-          {% endfor %}
-        </table>
-        <p class="text-right"><a href="{{ cart }}"><strong><i class="fa fa-shopping-cart"></i> {{ text_cart }}</strong></a>&nbsp;&nbsp;&nbsp;<a href="{{ checkout }}"><strong><i class="fa fa-share"></i> {{ text_checkout }}</strong></a></p>
+      <div class="checkout clearfix">
+        <a href="{{ cart }}" class="btn btn-view-cart inverse">{{ text_cart }}</a>
+        <a href="{{ checkout }}" class="btn btn-checkout pull-right">{{ text_checkout }}</a>        
       </div>
     </li>
     {% else %}
