@@ -1,7 +1,8 @@
-function TreeView(id, data, container){
+function TreeView(id, data, container, formEl){
     this.id = id;
     this.data = data;
     this.container = container;
+    this.formEl = formEl;
     
     this.nodeData = {
         text: 'input',
@@ -15,6 +16,8 @@ function TreeView(id, data, container){
     
     this.onNodeSelected = function(event, node){
         this.updateFormFromNode(node);
+        var dataNode = this.getNode(node.location);
+        dataNode.state = node.state;
     };
     
     this.updateNodeState = function(event, node) {
@@ -30,6 +33,8 @@ function TreeView(id, data, container){
             onNodeCollapsed: self.updateNodeState.bind(self),
             onNodeExpanded: self.updateNodeState.bind(self)
         });
+        var treeData = btoa(JSON.stringify(self.data));
+        this.formEl.val(treeData);
     };
     
     this.getNode = function(location) {

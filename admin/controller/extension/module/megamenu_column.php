@@ -8,15 +8,13 @@ class ControllerExtensionModuleMegamenuColumn extends Controller {
 		$this->document->setTitle($this->language->get('heading_title'));
 
 		$this->load->model('setting/module');
-
+		
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
 			if (!isset($this->request->get['module_id'])) {
 				$this->model_setting_module->addModule('megamenu_column', $this->request->post);
 			} else {
 				$this->model_setting_module->editModule($this->request->get['module_id'], $this->request->post);
 			}
-
-			
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
@@ -35,17 +33,7 @@ class ControllerExtensionModuleMegamenuColumn extends Controller {
 			$data['error_name'] = '';
 		}
 
-		if (isset($this->error['link'])) {
-			$data['error_link'] = $this->error['link'];
-		} else {
-			$data['error_link'] = '';
-		}
-
-		if (isset($this->error['type'])) {
-			$data['error_type'] = $this->error['type'];
-		} else {
-			$data['error_type'] = '';
-		}
+		
 
 		$data['breadcrumbs'] = array();
 
@@ -93,72 +81,12 @@ class ControllerExtensionModuleMegamenuColumn extends Controller {
 			$data['name'] = '';
 		}
 
-		if (isset($this->request->post['link'])) {
-			$data['link'] = $this->request->post['link'];
+		if (isset($this->request->post['tree'])) {
+			$data['tree'] = $this->request->post['tree'];
 		} elseif (!empty($module_info)) {
-			$data['link'] = $module_info['link'];
+			$data['tree'] = $module_info['tree'];
 		} else {
-			$data['link'] = '';
-		}
-
-		$data['imageFolder'] = DIR_IMAGE;
-		if (isset($this->request->post['icon'])) {
-			$data['icon'] = $this->request->post['icon'];
-		} elseif (!empty($module_info)) {
-			$data['icon'] = $module_info['icon'];
-		} else {
-			$data['icon'] = '';
-		}
-		
-		if (isset($this->request->post['type'])) {
-			$data['type'] = $this->request->post['type'];
-		} elseif (!empty($module_info)) {
-			$data['type'] = $module_info['type'];
-		} else {
-			$data['type'] = '';
-		}
-
-
-		if (isset($this->request->post['status'])) {
-			$data['status'] = $this->request->post['status'];
-		} elseif (!empty($module_info)) {
-			$data['status'] = $module_info['status'];
-		} else {
-			$data['status'] = '';
-		}
-
-		if (isset($this->request->post['menuItems'])) {
-			$data['menuItems'] = $this->request->post['menuItems'];
-		} elseif (!empty($module_info) && isset($module_info['menuItems'])) {
-			$data['menuItems'] = $module_info['menuItems'];
-		} else {
-			$data['menuItems'] = [];
-		}
-
-		$this->load->model('tool/image');
-		$menuItems = [];
-		foreach ($data['menuItems'] as $item) {
-			if (isset($item['item_image']) && is_file(DIR_IMAGE . $item['item_image'])) {
-				$item['thumb'] = $this->model_tool_image->resize($item['item_image'], 100, 100);
-			}
-			$menuItems[] = $item;
-		}
-		$data['menuItems'] = $menuItems;
-
-		$listModules = $this->getList();
-		$data['listModule'] = json_encode($listModules);
-		
-		if (isset($this->request->post['product_category'])) {
-			$selectedModules = $this->request->post['product_category'];
-		} elseif (!empty($module_info)) {
-			$selectedModules = $module_info['product_category'];
-		} else {
-			$selectedModules = [];
-		}
-
-		$data['product_categories'] = [];
-		foreach ($selectedModules as $module) {
-			$data['product_categories'][] = $this->getModuleById($module, $listModules);
+			$data['tree'] = '';
 		}
 
 		$data['header'] = $this->load->controller('common/header');
@@ -177,48 +105,6 @@ class ControllerExtensionModuleMegamenuColumn extends Controller {
 			$this->error['name'] = $this->language->get('error_name');
 		}
 
-		if (!$this->request->post['type']) {
-			$this->error['type'] = $this->language->get('error_type');
-		}
-
 		return !$this->error;
-	}
-
-	
-	protected function getList(){
-		$extensions = ['megamenu_column'];
-		$module_data = [];
-		foreach($extensions as $extension) {
-			$modules = $this->model_setting_module->getModulesByCode($extension);
-			foreach ($modules as $module) {
-				if ($module['setting']) {
-					$setting_info = json_decode($module['setting'], true);
-				} else {
-					$setting_info = array();
-				}
-				
-				$module_data[] = array(
-					'value' => $module['module_id'],
-					'label'      => $module['name']
-				);
-			}
-
-			
-		}
-		
-		return $module_data;
-	}
-
-
-	protected function getModuleById($id, $listModules){
-		foreach ($listModules as $module) {
-			if ($module['value'] == $id) {
-				$ret = new stdClass();
-				$ret->value = $module['value'];
-				$ret->label = $module['label'];
-				return $ret;
-			}
-		}
-		return null;
 	}
 }
