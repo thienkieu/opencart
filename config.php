@@ -6,10 +6,10 @@ define('HTTP_SERVER', 'http://product.local/');
 define('HTTPS_SERVER', 'http://product.local/');
 
 // DIR
-define('DIR_APPLICATION', 'D:/Projects/product/catalog/');
-define('DIR_SYSTEM', 'D:/Projects/product/system/');
-define('DIR_IMAGE', 'D:/Projects/product/image/');
-define('DIR_STORAGE', 'D:/Projects/product/storage/');
+define('DIR_APPLICATION', 'D:/private/opencart/product/catalog/');
+define('DIR_SYSTEM', 'D:/private/opencart/product/system/');
+define('DIR_IMAGE', 'D:/private/opencart/product/image/');
+define('DIR_STORAGE', 'D:/private/opencart/product/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');

@@ -717,3 +717,207 @@
 2019-01-20 16:43:38 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
 2019-01-20 16:43:38 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
 2019-01-20 16:43:38 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-22 6:35:32 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.catalog.language.1548142532): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 6:35:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 6:35:32 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 6:35:32 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 6:35:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 6:35:32 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 6:35:32 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.currency.1548142532): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 6:35:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 6:35:32 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 6:35:32 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 6:35:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 6:35:32 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 6:54:52 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548143692): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 6:54:52 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 6:54:52 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 6:54:52 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 6:54:52 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 6:54:52 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 6:57:29 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548143849): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 6:57:29 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 6:57:29 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 6:57:29 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 6:57:29 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 6:57:29 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 6:58:26 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548143906): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 6:58:26 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 6:58:26 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 6:58:26 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 6:58:26 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 6:58:26 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:00:12 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548144012): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:00:12 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:00:12 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:00:12 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:00:12 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:00:12 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:01:29 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548144089): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:01:29 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:01:29 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:01:29 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:01:29 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:01:29 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:02:32 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548144152): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:02:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:02:32 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:02:32 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:02:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:02:32 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:03:42 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548144222): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:03:42 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:03:42 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:03:42 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:03:42 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:03:42 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:08:07 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548144487): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:08:07 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:08:07 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:08:07 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:08:07 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:08:07 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:10:32 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548144632): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:10:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:10:32 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:10:32 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:10:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:10:32 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:11:00 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548144660): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:11:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:11:00 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:11:00 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:11:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:11:00 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:15:25 - PHP Notice:  Undefined index: type in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 180
+2019-01-22 7:15:25 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548144925): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:15:25 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:15:25 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:15:25 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:15:25 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:15:25 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:15:26 - PHP Notice:  Undefined index: type in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 180
+2019-01-22 7:15:26 - PHP Notice:  Undefined index: type in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 180
+2019-01-22 7:16:50 - PHP Notice:  Undefined index: type in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 180
+2019-01-22 7:16:50 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548145010): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:16:50 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:16:50 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:16:50 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:16:50 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:16:50 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:16:52 - PHP Notice:  Undefined index: type in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 180
+2019-01-22 7:17:51 - PHP Notice:  Undefined index: type in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 180
+2019-01-22 7:19:14 - PHP Notice:  Undefined index: type in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 102
+2019-01-22 7:19:20 - PHP Notice:  Undefined index: type in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 102
+2019-01-22 7:19:20 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548145160): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:19:20 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:19:20 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:19:20 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:19:20 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:19:20 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:19:22 - PHP Notice:  Undefined index: type in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 102
+2019-01-22 7:19:52 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548145192): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:19:52 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:19:52 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:19:52 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:19:52 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:19:52 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:20:01 - PHP Notice:  Undefined index: megamenu_id in D:\private\opencart\product\admin\controller\extension\module\megamenu.php on line 95
+2019-01-22 7:25:36 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548145536): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:25:36 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:25:36 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:25:36 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:25:36 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:25:36 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:26:42 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548145602): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 7:26:42 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 7:26:42 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 7:26:42 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 7:26:42 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 7:26:42 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 7:45:17 - PHP Notice:  Undefined index: tree in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 89
+2019-01-22 8:00:47 - PHP Notice:  Array to string conversion in D:\private\opencart\product\storage\cache\70\700883cefbaa20bde7b2f2a03da7aa12c78cada681a48ea47ffd8d50732915b3.php on line 96
+2019-01-22 8:31:29 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548149489): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 8:31:29 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 8:31:29 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 8:31:29 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 8:31:29 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 8:31:29 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 8:31:29 - PHP Notice:  Array to string conversion in D:\private\opencart\product\system\library\template\Twig\Environment.php(403) : eval()'d code on line 96
+2019-01-22 8:31:32 - PHP Notice:  Array to string conversion in D:\private\opencart\product\storage\cache\70\700883cefbaa20bde7b2f2a03da7aa12c78cada681a48ea47ffd8d50732915b3.php on line 96
+2019-01-22 8:32:45 - PHP Notice:  Array to string conversion in D:\private\opencart\product\storage\cache\70\700883cefbaa20bde7b2f2a03da7aa12c78cada681a48ea47ffd8d50732915b3.php on line 96
+2019-01-22 8:33:17 - PHP Notice:  Array to string conversion in D:\private\opencart\product\storage\cache\70\700883cefbaa20bde7b2f2a03da7aa12c78cada681a48ea47ffd8d50732915b3.php on line 189
+2019-01-22 8:33:35 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548149615): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 8:33:35 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 8:33:35 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 8:33:35 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 8:33:35 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 8:33:35 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 8:33:35 - PHP Notice:  Array to string conversion in D:\private\opencart\product\system\library\template\Twig\Environment.php(403) : eval()'d code on line 189
+2019-01-22 8:33:38 - PHP Notice:  Array to string conversion in D:\private\opencart\product\storage\cache\70\700883cefbaa20bde7b2f2a03da7aa12c78cada681a48ea47ffd8d50732915b3.php on line 189
+2019-01-22 8:41:24 - PHP Warning:  json_decode() expects parameter 1 to be string, array given in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 13
+2019-01-22 8:59:28 - PHP Warning:  json_decode() expects parameter 1 to be string, array given in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 14
+2019-01-22 9:14:10 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548152050): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 9:14:10 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 9:14:10 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 9:14:10 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 9:14:10 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 9:14:10 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 9:14:19 - PHP Notice:  Undefined variable: data in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 16
+2019-01-22 9:23:52 - PHP Notice:  Undefined variable: data in D:\private\opencart\product\admin\controller\extension\module\megamenu_column.php on line 16
+2019-01-22 9:32:21 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548153141): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 9:32:21 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 9:32:21 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 9:32:21 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 9:32:21 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 9:32:21 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 9:33:50 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548153230): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 9:33:50 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 9:33:50 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 9:33:50 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 9:33:50 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 9:33:50 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 9:33:50 - PHP Notice:  Array to string conversion in D:\private\opencart\product\system\library\template\Twig\Environment.php(403) : eval()'d code on line 188
+2019-01-22 9:33:52 - PHP Notice:  Array to string conversion in D:\private\opencart\product\storage\cache\70\700883cefbaa20bde7b2f2a03da7aa12c78cada681a48ea47ffd8d50732915b3.php on line 188
+2019-01-22 9:34:35 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548153275): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 9:34:35 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 9:34:35 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 9:34:35 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 9:34:35 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 9:34:35 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 9:38:38 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548153518): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 9:38:38 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 9:38:38 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 9:38:38 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 9:38:38 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 9:38:38 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 9:39:40 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548153580): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 9:39:40 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 9:39:40 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 9:39:40 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 9:39:40 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 9:39:40 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 9:40:55 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548153655): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 9:40:55 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 9:40:55 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 9:40:55 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 9:40:55 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 9:40:55 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 9:44:41 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548153881): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 9:44:41 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 9:44:41 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 9:44:41 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 9:44:41 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 9:44:41 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 9:46:40 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548154000): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 9:46:40 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 9:46:40 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 9:46:40 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 9:46:40 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 9:46:40 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
+2019-01-22 9:47:47 - PHP Warning:  fopen(D:/private/opencart/product/storage/cache/cache.store.1548154067): failed to open stream: No such file or directory in D:\private\opencart\product\system\library\cache\file.php on line 49
+2019-01-22 9:47:47 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 51
+2019-01-22 9:47:47 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 53
+2019-01-22 9:47:47 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 55
+2019-01-22 9:47:47 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 57
+2019-01-22 9:47:47 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\private\opencart\product\system\library\cache\file.php on line 59
