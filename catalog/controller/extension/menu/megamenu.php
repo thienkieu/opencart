@@ -9,42 +9,4 @@ class ControllerExtensionMenuMegamenu extends Controller {
 		return $this->load->view('extension/menu/megamenu', $data);
 	}
 
-	private function renderMenu($data){
-		$html = '<ul class="un-style">';
-			foreach($data as $value){
-				$html += renderChildrenMenu($value);
-			}
-		$html += '</ul>';
-	}
-
-	private function renderChildrenMenu($data){
-		$html = '<li class="all-category-item">' +
-					'<a href="">' +
-						'<span>'+
-							'<img class="all-category-item-icon" src="https://serendipity.oc-templates.com/image/catalog/m10.png" alt="">'+
-							$data['name']+
-						'</span>'+
-					'</a>';
-					if (isset($data['children'])) 
-					{					
-						$html +='<div class="sub-menu full-width-sub-menu">'+
-									'<div class="content">'+
-										'<p class="arrow"></p>'+
-										'<div class="row">'+
-										foreach($data['children'] as $value){
-											$html +='<div class="col-sm-3">';
-											$html +=	'<ul class="un-style sub-menu-column-item">';
-											$html += 	renderChildrenMenu($value);
-											$html += 	'</ul>';
-											$html += '</div>';
-										}
-						$html +=		'</div>'+
-									'</div>'+
-								'</div>';
-					}
-		$html += '</li>';
-							
-		return $html;
-		
-	}
 }
