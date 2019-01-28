@@ -1,0 +1,249 @@
+.menu-container img {
+    max-width: 100%;
+}
+
+.menu-container ul{
+    z-index: 9999;
+}
+
+.menu-container{
+	background: rgb(51, 51, 51);
+    text-transform: uppercase;
+}
+
+.menu-container a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-container ul {
+	list-style: none;
+	padding: 0;
+    list-style-type: none;
+}
+
+.menu-container ul > li {	
+    padding: 15px;
+    text-transform: uppercase;
+    color: #333;    
+    list-style: none;
+    position: relative;
+
+}
+
+.menu-container a:hover {
+    cursor: pointer;
+}
+
+.menu-container ul.item-separate > li {
+    border-top: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+}
+
+.menu-container ul.item-separate > li:last-child {
+    border-bottom: 1px solid #eaeaea;
+}
+
+ul.level_0 {
+    margin-bottom: 0px;	
+    position: relative;
+}
+
+ul.level_0 > li {
+	display: inline-block;
+    padding: 15px;    
+}
+
+
+ul.level_0 > li:first-child {
+	background: #5c5c5c;
+}
+
+ul.level_0 > li > a:after {
+    content: "\f078";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 9px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    color: #fff !important;
+    vertical-align: top;
+    margin: 5px 0px 0px 6px;
+}
+
+ul.level_0 > li > a {
+	color: white;
+}
+
+ul.level_1 {
+	width: 100%;
+    left: 0px;
+    color: darkgray;
+	margin-top:15px;
+}
+
+ul.level_1 a {
+	color: darkgray;
+}
+
+.left-column-full ul.level_2 {
+	top: 0px;
+    color: darkgray;
+    border: 1px solid #eaeaea;	
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    background: white;
+    display: block;
+    visibility: hidden;
+    left: calc(100% + 20px);
+}
+
+ul.level_0 > li.left-column-full {
+    position: static;
+}
+
+
+.left-column-full > ul.level_1 {
+    width: 20%;
+}
+
+.left-column-full ul.level_2 > li {
+    display: inline-block;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+}
+
+.left-column-full ul.level_2 > li > a {
+    color: #23a1d1;
+}
+
+.left-column-full li > ul.level_2:before {
+    position: absolute;
+    top: 11px;
+    left: 0;
+    margin-top: 0px;
+    margin-left: -10px;
+    display: block;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 10px;
+    border-right-color: #fff;
+    border-left-width: 0;
+    content: '';
+    z-index: 30;
+}
+
+.left-column-full ul.level_3 {
+    display: block;
+    border-top: none;
+    margin-top: 15px;
+    width: calc(100% + 2px);
+    position: relative;
+}
+
+.left-column-full ul.level_3 a {
+    text-transform: none;
+}
+
+.left-column-full ul.level_3 > li {
+    display: block;
+    width: 100%;       
+}
+
+.left-column-full > li {
+    left: 0px;
+    width: 20%;
+}
+
+.left-column-full .level_2 {    
+    width: calc(400% + 8px);
+    top: -1px;		
+}
+
+
+.level_1, .level_2, .level_3{
+    display: none;
+    position: absolute;	
+    width: 100%;
+}
+
+li:hover > ul {
+    display: block;
+}
+
+.left-column-full li:hover > ul.level_2{
+    left: 100%;
+}
+
+.left-column-full li:hover > ul{
+    transition: left 0.2s ease-in;
+    visibility: visible; 
+}
+
+ul.level_0 > li.full-width{
+    position: static;
+}
+
+.full-width > ul > li {
+    display: inline-block;	
+}
+
+.full-width > ul > li > ul {
+    display: block;
+    left: 0px;
+    visibility: visible;
+    padding-top: 15px;
+    position: relative;
+}
+
+.full-width > ul {
+    border-bottom: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;    
+}
+
+.full-width ul.level_1 > li > a {
+    color: #23a1d1;
+}
+
+.full-width ul.level_2 a {
+    text-transform: none;
+}
+
+.one-column ul {
+    left: 0px;
+}
+
+.one-column  ul ul {
+    left: calc(100% + 20px);
+    visibility: hidden;
+    transition: left 0.2s ease-in;
+    display: block;   
+}
+
+.one-column ul li:hover > ul{     
+    visibility: visible; 
+    left: 100%;
+    top: 0px;    
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+
+.one-column ul ul:before {
+    position: absolute;
+    top: 11px;
+    left: 0;
+    margin-top: 0px;
+    margin-left: -10px;
+    display: block;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 10px;
+    border-right-color: #fff;
+    border-left-width: 0;
+    content: '';
+    z-index: 30;
+}

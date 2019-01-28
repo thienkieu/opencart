@@ -717,3 +717,327 @@
 2019-01-20 16:43:38 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
 2019-01-20 16:43:38 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
 2019-01-20 16:43:38 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 14:52:39 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1548690759): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2019-01-28 14:52:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2019-01-28 14:52:39 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2019-01-28 14:52:39 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2019-01-28 14:52:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2019-01-28 14:52:39 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 14:54:00 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1548690840): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2019-01-28 14:54:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2019-01-28 14:54:00 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2019-01-28 14:54:00 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2019-01-28 14:54:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2019-01-28 14:54:00 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 15:05:44 - PHP Notice:  Undefined index: tree in D:\Projects\product\admin\controller\extension\module\megamenu_column.php on line 87
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:25 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:25 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 20
+2019-01-28 15:28:34 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:28:34 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: name in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 21
+2019-01-28 15:29:44 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:29:44 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:30:46 - PHP Notice:  Undefined index: nodes in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 22
+2019-01-28 15:30:46 - PHP Warning:  Invalid argument supplied for foreach() in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 18
+2019-01-28 15:32:14 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.catalog.language.1548693134): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2019-01-28 15:32:14 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2019-01-28 15:32:14 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2019-01-28 15:32:14 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2019-01-28 15:32:14 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2019-01-28 15:32:14 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 15:32:14 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.currency.1548693134): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2019-01-28 15:32:14 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2019-01-28 15:32:14 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2019-01-28 15:32:14 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2019-01-28 15:32:14 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2019-01-28 15:32:14 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 15:43:24 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.catalog.language.1548693804): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2019-01-28 15:43:24 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2019-01-28 15:43:24 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2019-01-28 15:43:24 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2019-01-28 15:43:24 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2019-01-28 15:43:24 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 15:43:24 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.currency.1548693804): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2019-01-28 15:43:24 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2019-01-28 15:43:24 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2019-01-28 15:43:24 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2019-01-28 15:43:24 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2019-01-28 15:43:24 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 15:48:38 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.store.1548694118): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2019-01-28 15:48:38 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2019-01-28 15:48:38 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2019-01-28 15:48:38 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2019-01-28 15:48:38 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2019-01-28 15:48:38 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 15:53:30 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.catalog.language.1548694410): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2019-01-28 15:53:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2019-01-28 15:53:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2019-01-28 15:53:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2019-01-28 15:53:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2019-01-28 15:53:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 15:53:30 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.currency.1548694410): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2019-01-28 15:53:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2019-01-28 15:53:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2019-01-28 15:53:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2019-01-28 15:53:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2019-01-28 15:53:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 15:55:37 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.catalog.language.1548694537): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2019-01-28 15:55:37 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2019-01-28 15:55:37 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2019-01-28 15:55:37 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2019-01-28 15:55:37 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2019-01-28 15:55:37 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 15:55:37 - PHP Warning:  fopen(D:/Projects/product/storage/cache/cache.currency.1548694537): failed to open stream: No such file or directory in D:\Projects\product\system\library\cache\file.php on line 49
+2019-01-28 15:55:37 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 51
+2019-01-28 15:55:37 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 53
+2019-01-28 15:55:37 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 55
+2019-01-28 15:55:37 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 57
+2019-01-28 15:55:37 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\product\system\library\cache\file.php on line 59
+2019-01-28 15:55:38 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:38 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:38 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:38 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:38 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:38 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:38 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:38 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:38 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:38 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:45 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:45 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:45 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:45 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:45 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:45 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:45 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:45 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:45 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:55:45 - PHP Notice:  Undefined variable: value in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:56:04 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:56:04 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:56:04 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:56:04 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:56:04 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:56:04 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:56:04 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:56:04 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:56:04 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:56:04 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 34
+2019-01-28 15:58:15 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 33
+2019-01-28 15:58:15 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 33
+2019-01-28 15:58:15 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 33
+2019-01-28 15:58:15 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 33
+2019-01-28 15:58:15 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 33
+2019-01-28 15:58:15 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 33
+2019-01-28 15:58:15 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 33
+2019-01-28 15:58:15 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 33
+2019-01-28 15:58:15 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 33
+2019-01-28 15:58:15 - PHP Notice:  Undefined index: displayColumn in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 33
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36
+2019-01-28 16:03:06 - PHP Notice:  Undefined variable: class in D:\Projects\product\catalog\controller\extension\menu\megamenu.php on line 36

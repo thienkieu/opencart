@@ -11,10 +11,12 @@ function TreeView(id, data, container, formEl){
         style: 'input',
         link: 'input',
         icon: 'input',
+        description: 'input',
         displayColumn: 'checkbox'
     };
     
     this.onNodeSelected = function(event, node){
+        this.data = this.clearSelected('', this.data);
         this.updateFormFromNode(node);
         var dataNode = this.getNode(node.location);
         dataNode.state = node.state;
@@ -111,6 +113,27 @@ function TreeView(id, data, container, formEl){
 
             if(node.nodes){
                 copyNode.nodes = self.reCaupateTree(copyNode.location, node.nodes);
+            }
+
+            newTree.push(copyNode);
+        }
+        return newTree;
+    };
+
+    this.clearSelected  = function(parentLocation, tree){
+        var newTree = [];
+        var self = this;
+        for(var i =0 ;i < tree.length; i++) {
+            var node = tree[i];
+            var copyNode = self.copyNodeInfo(node);
+            if (copyNode.state){
+                copyNode.state.selected = false;
+            }
+            
+            copyNode.location = parentLocation? parentLocation + '.'+i: i.toString();
+
+            if(node.nodes){
+                copyNode.nodes = self.clearSelected(copyNode.location, node.nodes);
             }
 
             newTree.push(copyNode);
