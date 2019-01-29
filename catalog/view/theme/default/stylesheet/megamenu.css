@@ -35,13 +35,13 @@
     cursor: pointer;
 }
 
-.menu-container ul.item-separate > li {
+.menu-container li.item-separate > ul > li {
     border-top: 1px solid #eaeaea;
     border-right: 1px solid #eaeaea;
     border-left: 1px solid #eaeaea;
 }
 
-.menu-container ul.item-separate > li:last-child {
+.menu-container li.item-separate > ul > li:last-child {
     border-bottom: 1px solid #eaeaea;
 }
 
