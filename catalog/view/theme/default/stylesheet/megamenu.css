@@ -189,7 +189,8 @@ ul.level_0 > li.full-width{
 }
 
 .full-width > ul > li {
-    display: inline-block;	
+    display: inline-block;
+    text-align: center;	
 }
 
 .full-width > ul > li > ul {
@@ -216,6 +217,7 @@ ul.level_0 > li.full-width{
 
 .one-column ul {
     left: 0px;
+    min-width: 200px;
 }
 
 .one-column  ul ul {

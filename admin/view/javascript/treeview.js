@@ -168,7 +168,8 @@ function TreeView(id, data, container, formEl){
         if (type == 'input') {
             this.container.find("[name='"+id+"']").val(value);
         } else if (type == 'checkbox') {
-            this.container.find("[name='"+id+"']").attr('checked', value);
+            var cb = this.container.find("[name='"+id+"']");
+            cb[0].checked = value;
         }
     };
     
@@ -177,7 +178,8 @@ function TreeView(id, data, container, formEl){
             return this.container.find("[name='"+id+"']").val();
         }
         if (type == 'checkbox') {
-            return this.container.find("[name='"+id+"']").prop('checked');
+            var cb = this.container.find("[name='"+id+"']");
+            return cb[0].checked;
         }
     };
     
