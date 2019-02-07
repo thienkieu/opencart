@@ -10,9 +10,11 @@ function TreeView(id, data, container, formEl){
         css: 'input',
         style: 'input',
         link: 'input',
-        icon: 'input',
+        icon: 'img',
         description: 'input',
-        displayColumn: 'checkbox'
+        displayColumn: 'checkbox',
+        displayCarousel: 'checkbox',
+        displayImage: 'checkbox'
     };
     
     this.onNodeSelected = function(event, node){
@@ -170,11 +172,23 @@ function TreeView(id, data, container, formEl){
         } else if (type == 'checkbox') {
             var cb = this.container.find("[name='"+id+"']");
             cb[0].checked = value;
+        } else if (type =='img') {
+            this.container.find("[name='"+id+"']").val(value);
+            var imgInput  =  this.container.find("[name='"+id+"']");
+            if (!value) {
+                var parent = imgInput.parent();
+                value = $('#defaultimage').val();
+                parent.find('img').attr('src', value);
+            } else {
+                var parent = imgInput.parent();
+                parent.find('img').attr('src','/image/'+value);
+            }
+            
         }
     };
     
     this.getElementValue = function(id, type){
-        if (type == 'input') {
+        if (type == 'input' || type == "img") {
             return this.container.find("[name='"+id+"']").val();
         }
         if (type == 'checkbox') {

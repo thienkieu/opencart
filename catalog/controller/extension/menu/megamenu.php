@@ -19,7 +19,7 @@ class ControllerExtensionMenuMegamenu extends Controller {
 			$html .= '<li class="'. $value['css'] .'">';
 			$html .= '<a href="'. $value['href'] .'">'. $value['text'] .'</a>';
 			if (isset($value['nodes'])) {
-				$html .= $this->buildSubMenu($value['nodes'], 1);
+				$html .= $this->buildSubMenu(null, $value['nodes'], 1);
 			}
 			
 			$html .= '</li>';
@@ -28,15 +28,21 @@ class ControllerExtensionMenuMegamenu extends Controller {
 		return $html;
 	}
 
-	private function buildSubMenu($menu, $level) {
-		$html = '<ul class="level_'. $level .'">';
+	private function buildSubMenu($parent, $menu, $level) {
+		$class = '';
+		if ($parent != null && isset($parent['displayCarousel']) && $parent['displayCarousel'] == true) {
+			$class = ' owl-carousel';
+		}
+		$html = '<ul class="level_'. $level.$class.'">';
 		
 		foreach ($menu as $key => $value) {
-			
 			$html .= '<li class="'. $value['css'] .'">';
 			$html .= '<a href="'. $value['href'] .'">'. $value['text'] .'</a>';
+			if (isset($value['icon']) && !empty($value['icon'])) {
+				$html .='<img src="/image/'.$value['icon'].'"/>';
+			}
 			if (isset($value['nodes'])) {
-				$html .= $this->buildSubMenu($value['nodes'], $level+1);
+				$html .= $this->buildSubMenu($value, $value['nodes'], $level+1);
 			}
 			$html .= '</li>';
 		}

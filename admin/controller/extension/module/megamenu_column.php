@@ -33,7 +33,8 @@ class ControllerExtensionModuleMegamenuColumn extends Controller {
 			$data['error_name'] = '';
 		}
 
-		
+		$this->load->model('tool/image');
+		$data['defaultimage'] = $this->model_tool_image->resize('no_image.png', 40, 40);
 
 		$data['breadcrumbs'] = array();
 
