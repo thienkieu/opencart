@@ -33,14 +33,24 @@ class ControllerExtensionMenuMegamenu extends Controller {
 		if ($parent != null && isset($parent['displayCarousel']) && $parent['displayCarousel'] == true) {
 			$class = ' owl-carousel';
 		}
+
 		$html = '<ul class="level_'. $level.$class.'">';
 		
 		foreach ($menu as $key => $value) {
 			$html .= '<li class="'. $value['css'] .'">';
-			$html .= '<a href="'. $value['href'] .'">'. $value['text'] .'</a>';
+			$html .= '<a href="'. $value['href'] .'">'. $value['text'];
 			if (isset($value['icon']) && !empty($value['icon'])) {
 				$html .='<img src="/image/'.$value['icon'].'"/>';
 			}
+			$html .= '</a>';
+			if (isset($value['description']) && !empty($value['description'])) {
+				$html .= '<a href="'. $value['href'] .'">'. $value['description'].'</a>';
+			}
+
+			if (isset($value['price']) && !empty($value['price'])) {
+				$html .= '<span>'. $value['price'].'</span>';
+			}
+
 			if (isset($value['nodes'])) {
 				$html .= $this->buildSubMenu($value, $value['nodes'], $level+1);
 			}

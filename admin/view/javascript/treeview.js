@@ -11,6 +11,7 @@ function TreeView(id, data, container, formEl){
         style: 'input',
         link: 'input',
         icon: 'img',
+        image: 'img',
         description: 'input',
         displayColumn: 'checkbox',
         displayCarousel: 'checkbox',
