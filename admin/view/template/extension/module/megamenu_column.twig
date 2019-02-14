@@ -71,12 +71,15 @@
                     </div>
 
                     <div class="form-group">
-                      <label class="col-sm-2 control-label" for="entry_icon">{{ entry_icon }}</label>
-                      <div class="table-responsive col-sm-10">
+                      <label>{{ entry_icon }}</label>
+                      <div class="table-responsive" id="entry_icon">
                         <table class="table table-striped table-bordered table-hover">
                           <tbody>
                             <tr>
-                              <td class="text-left"><a href="" id="icon-image" data-toggle="image" class="img-thumbnail"><img style="max-width: 30px;" id="icon-image" src="" alt="" title="" data-placeholder="" /></a>
+                              <td class="text-left">
+                                <a href="" id="icon-image" data-toggle="image" class="img-thumbnail">
+                                  <img style="width: 40px;" id="icon-image" src="/image/cache/no_image-40x40.png" alt="" title="" data-placeholder="" />
+                                </a>
                                 <input type="hidden" name="icon" value="{{ icon }}" id="input-icon" />
                               </td>
                             </tr>
@@ -85,33 +88,39 @@
                       </div>
                     </div>
 
+
                     <div class="form-group">
-                      <label class="col-sm-2 control-label" for="entry_icon">{{ entry_icon }}</label>
-                      <div class="table-responsive col-sm-10">
-                        <table class="table table-striped table-bordered table-hover">
-                          <tbody>
-                            <tr>
-                              <td class="text-left"><a href="" id="left-icon" data-toggle="image" class="img-thumbnail"><img style="max-width: 30px;" id="left-icon-image" src="" alt="" title="" data-placeholder="" /></a>
-                                <input type="hidden" name="image" value="{{ image }}" id="input-image" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                      <label >{{ entry_image }}</label>
+                      <div class="table-responsive" id="entry_image">
+                      <table class="table table-striped table-bordered table-hover">
+                        <tbody>
+                        <tr>
+                          <td class="text-left">
+                          <a href="" id="thumb-image" data-toggle="image" class="img-thumbnail">
+                            <img style="width: 40px;" id="thumb-image" src="/image/cache/no_image-40x40.png" alt="" title="" data-placeholder="" />
+                          </a>
+                          <input type="hidden" name="image" value="{{ image }}" id="input-thumb" />
+                          </td>
+                        </tr>
+                        </tbody>
+                      </table>
                       </div>
                     </div>
 
-                    <div class="checkbox">
-                      <label><input type="checkbox" name="displayColumn"  id="displayColumn"> Display multi column</label>
-                    </div>
 
-                    <div class="checkbox">
-                      <label><input type="checkbox" name="displayCarousel"  id="displayCarousel"> Display Carousel </label>
-                    </div>
+                    <div class="form-group">
+                      <div class="checkbox">
+                        <label><input type="checkbox" name="displayColumn"  id="displayColumn"> Display multi column</label>
+                      </div>
 
-                    <div class="checkbox">
-                      <label><input type="checkbox" name="displayImage"  id="displayImage"> Display Image</label>
-                    </div>
+                      <div class="checkbox">
+                        <label><input type="checkbox" name="displayCarousel"  id="displayCarousel"> Display Carousel </label>
+                      </div>
 
+                      <div class="checkbox">
+                        <label><input type="checkbox" name="displayImage"  id="displayImage"> Display Image</label>
+                      </div>
+                    </div>
                     <button type="button" class="btn btn-success" id="btn-add-children">Add Children</button>
                     <button type="button" class="btn btn-success" id="btn-update-content">Update Content</button>
                     <button type="button" class="btn btn-danger" id="btn-remove-children">Remove Children All</button>

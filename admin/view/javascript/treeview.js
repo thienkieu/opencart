@@ -40,6 +40,9 @@ function TreeView(id, data, container, formEl){
         });
         var treeData = btoa(JSON.stringify(self.data));
         this.formEl.val(treeData);
+
+        var node = this.getSelected();
+        this.updateFormFromNode(node);
     };
     
     this.getNode = function(location) {

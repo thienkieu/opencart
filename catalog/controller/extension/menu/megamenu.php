@@ -14,7 +14,7 @@ class ControllerExtensionMenuMegamenu extends Controller {
 	}
 
 	private function buildMenu($menu) {
-		$html = '<div class="container"> <div class="menu-container"><ul class="level_0">';
+		$html = '<div class="megamenu-background"><div class="container"> <div class="menu-container"><ul class="level_0">';
 		foreach ($menu as $key => $value) {
 			$html .= '<li class="'. $value['css'] .'">';
 			$html .= '<a href="'. $value['href'] .'">'. $value['text'] .'</a>';
@@ -24,7 +24,7 @@ class ControllerExtensionMenuMegamenu extends Controller {
 			
 			$html .= '</li>';
 		}
-		$html .= '</ul></div></div>';
+		$html .= '</ul></div></div></div>';
 		return $html;
 	}
 
@@ -38,15 +38,19 @@ class ControllerExtensionMenuMegamenu extends Controller {
 		
 		foreach ($menu as $key => $value) {
 			$html .= '<li class="'. $value['css'] .'">';
-			$html .= '<a href="'. $value['href'] .'">'. $value['text'];
+			$html .= '<a href="'. $value['href'] .'">';
 			if (isset($value['icon']) && !empty($value['icon'])) {
-				$html .='<img src="/image/'.$value['icon'].'"/>';
+				$html .='<img class="icon" src="/image/'.$value['icon'].'"/>';
+			}
+			$html .= $value['text'];
+			if (isset($value['image']) && !empty($value['image'])) {
+				$html .='<img src="/image/'.$value['image'].'"/>';
+			}
+			
+			if (isset($value['description']) && !empty($value['description'])) {
+				$html .= $value['description'];
 			}
 			$html .= '</a>';
-			if (isset($value['description']) && !empty($value['description'])) {
-				$html .= '<a href="'. $value['href'] .'">'. $value['description'].'</a>';
-			}
-
 			if (isset($value['price']) && !empty($value['price'])) {
 				$html .= '<span>'. $value['price'].'</span>';
 			}
