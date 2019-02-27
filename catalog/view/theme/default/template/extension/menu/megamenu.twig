@@ -19,4 +19,50 @@ $('.owl-carousel').owlCarousel({
 			}
 		}
 	});
+
+	function updateParentHeight(el){
+		var parentElement = el.parentElement.parentElement;			
+		if (!parentElement.classList.contains('level_0')){
+			console.log( parentElement);
+			console.log( parentElement.scrollHeight);
+			parentElement.style.maxHeight = 'initial';
+			updateParentHeight(parentElement);
+		}
+	}
+
+	var coll = document.getElementsByClassName("expand-button");
+	var i;
+	for (i = 0; i < coll.length; i++) {
+		coll[i].addEventListener("click", function() {
+			var parentElement = this.parentElement;
+			
+			var content = this.nextElementSibling;
+			
+			if (content.style.display === "block") {				
+				$(content).slideUp(350);
+				$(parentElement).toggleClass("active");			
+			} else {
+				
+				var ulElement = parentElement.parentElement;
+				var lis = $(ulElement).children('li.active');	
+				lis.removeClass('active');
+				var existOpen = false;
+				lis.each(function(index, item){
+					$(item).children('ul').slideUp(350);
+					existOpen = true;
+				});
+								
+				$(parentElement).toggleClass("active");
+				$(content).slideToggle(350);
+
+				if (existOpen == true) {
+					setTimeout(function(){
+						parentElement.scrollIntoView();
+					},350);
+					
+				
+				}
+			}
+		});
+	}
 --></script>

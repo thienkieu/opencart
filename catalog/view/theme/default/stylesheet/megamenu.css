@@ -48,22 +48,22 @@
     border-bottom: 1px solid #eaeaea;
 }
 
-ul.level_0 {
+.menu-container ul.level_0 {
     margin-bottom: 0px;	
     position: relative;
 }
 
-ul.level_0 > li {
+.menu-container ul.level_0 > li {
 	display: inline-block;
     padding: 15px; 
 }
 
 
-ul.level_0 > li:first-child {
+.menu-container ul.level_0 > li:first-child {
 	background: #5c5c5c;
 }
 
-ul.level_0 > li > a:after {
+.menu-container ul.level_0 > li > a:after {
     content: "\f078";
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -79,23 +79,23 @@ ul.level_0 > li > a:after {
     margin: 5px 0px 0px 6px;
 }
 
-ul.level_0 > li > a {
+.menu-container ul.level_0 > li > a {
     color: white;
     font-weight: bold;
 }
 
-ul.level_1 {
+.menu-container ul.level_1 {
 	width: 100%;
     left: 0px;
     color: darkgray;
 	margin-top:15px;
 }
 
-ul.level_1 a {
+.menu-container ul.level_1 a {
 	color: darkgray;
 }
 
-.left-column-full ul.level_2 {
+.menu-container .left-column-full ul.level_2 {
 	top: 0px;
     color: darkgray;
     border: 1px solid #eaeaea;	
@@ -105,26 +105,26 @@ ul.level_1 a {
     visibility: hidden;
 }
 
-ul.level_0 > li.left-column-full {
+.menu-container ul.level_0 > li.left-column-full {
     position: static;
 }
 
 
-.left-column-full > ul.level_1 {
+.menu-container .left-column-full > ul.level_1 {
     width: 25%;
 }
 
-.left-column-full ul.level_2 > li {
+.menu-container .left-column-full ul.level_2 > li {
     display: inline-block;
     border-top: 1px solid #eaeaea;
     text-align: center;
 }
 
-.left-column-full ul.level_2 > li > a {
+.menu-container .left-column-full ul.level_2 > li > a {
     color: #23a1d1;
 }
 
-.left-column-full li > ul.level_2:before {
+.menu-container .left-column-full li > ul.level_2:before {
     position: absolute;
     top: 11px;
     left: 0;
@@ -140,7 +140,7 @@ ul.level_0 > li.left-column-full {
     z-index: 30;
 }
 
-.left-column-full ul.level_3 {
+.menu-container .left-column-full ul.level_3 {
     display: block;
     border-top: none;
     margin-top: 15px;
@@ -148,71 +148,72 @@ ul.level_0 > li.left-column-full {
     position: relative;
 }
 
-.left-column-full ul.level_3 a {
+.menu-container .left-column-full ul.level_3 a {
     text-transform: none;
 }
 
-.left-column-full ul.level_3 > li {
+.menu-container .left-column-full ul.level_3 > li {
     display: block;
     width: 100%;       
 }
 
-.left-column-full > li {
+.menu-container .left-column-full > li {
     left: 0px;
     width: 20%;
 }
 
-.left-column-full .level_2 {    
+.menu-container .left-column-full .level_2 {    
     width: calc(300% + 8px);
     top: -1px;		
 }
 
 
-.level_1, .level_2, .level_3{
+.menu-container .level_1, .menu-container .level_2, .menu-container .level_3{
     display: none;
     position: absolute;	
     width: 100%;
 }
 
-li:hover > ul {
+.menu-container li:hover > ul {
     display: block;
 }
 
-.left-column-full li:hover > ul.level_2{
+.menu-container .left-column-full li:hover > ul.level_2{
     left: 100%;
 }
 
-.left-column-full ul.level_2 > li {
+.menu-container .left-column-full ul.level_2 > li {
     padding-top: 40px;
     text-align: left;
 }
 
-.left-column-full ul.level_2 > li:first-child {
+.menu-container .left-column-full ul.level_2 > li:first-child {
     padding-left: 40px;
 }
-.left-column-full ul.level_2 > li li{
+
+.menu-container .left-column-full ul.level_2 > li li{
     padding:5px;
 }
 
-.left-column-full ul.level_2 > li.carousel-menu{
+.menu-container .left-column-full ul.level_2 > li.carousel-menu{
     text-align: center;
 }
 
-.left-column-full li:hover > ul{
+.menu-container .left-column-full li:hover > ul{
     transition: left 0.2s ease-in;
     visibility: visible; 
 }
 
-ul.level_0 > li.full-width{
+.menu-container ul.level_0 > li.full-width{
     position: static;
 }
 
-.full-width > ul > li {
+.menu-container .full-width > ul > li {
     display: inline-block;
     text-align: center;	
 }
 
-.full-width > ul > li > ul {
+.menu-container .full-width > ul > li > ul {
     display: block;
     left: 0px;
     visibility: visible;
@@ -220,40 +221,40 @@ ul.level_0 > li.full-width{
     position: relative;
 }
 
-.full-width > ul {
+.menu-container .full-width > ul {
     border-bottom: 1px solid #eaeaea;
     border-right: 1px solid #eaeaea;
     border-left: 1px solid #eaeaea;    
 }
 
-.full-width ul.level_1 > li > a {
+.menu-container .full-width ul.level_1 > li > a {
     color: #23a1d1;
 }
 
-.full-width ul.level_2 a {
+.menu-container .full-width ul.level_2 a {
     text-transform: none;
 }
 
-.one-column ul {
+.menu-container .one-column ul {
     left: 0px;
     min-width: 200px;
 }
 
-.one-column  ul ul {
+.menu-container .one-column  ul ul {
     left: calc(100% + 20px);
     visibility: hidden;
     transition: left 0.2s ease-in;
     display: block;   
 }
 
-.one-column ul li:hover > ul{     
+.menu-container .one-column ul li:hover > ul{     
     visibility: visible; 
     left: 100%;
     top: 0px;    
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
 }
 
-.one-column ul ul:before {
+.menu-container .one-column ul ul:before {
     position: absolute;
     top: 11px;
     left: 0;
@@ -270,15 +271,15 @@ ul.level_0 > li.full-width{
 }
 
 
-.left-column-full .owl-carousel .owl-nav button.owl-prev:hover, 
-.left-column-full .owl-carousel .owl-nav button.owl-next:hover {
+.menu-container .left-column-full .owl-carousel .owl-nav button.owl-prev:hover, 
+.menu-container .left-column-full .owl-carousel .owl-nav button.owl-next:hover {
     border: 1px solid;
     border-color: #fe9c00;
     background: #fe9c00;
 }
 
-.left-column-full .owl-carousel .owl-nav button.owl-prev, 
-.left-column-full .owl-carousel .owl-nav button.owl-next {
+.menu-container .left-column-full .owl-carousel .owl-nav button.owl-prev, 
+.menu-container .left-column-full .owl-carousel .owl-nav button.owl-next {
     width: 35px;
     border-color: #e5e5e5;
     border: 1px solid #e5e5e5;
@@ -288,15 +289,15 @@ ul.level_0 > li.full-width{
     background: white;
 }
 
-.left-column-full .owl-carousel{
+.menu-container .left-column-full .owl-carousel{
     text-align: center;
 }
 
-.left-column-full ul.level_1 > li.has-chidlren {
+.menu-container .left-column-full ul.level_1 > li.has-chidlren {
     padding-left:30px;
     transition: all 0.2s ease-out;
 }
-.left-column-full ul.level_1 > li.has-chidlren > a:before {
+.menu-container .left-column-full ul.level_1 > li.has-chidlren > a:before {
     display: block;
     position: absolute;
     top: 20px;
@@ -317,24 +318,24 @@ ul.level_0 > li.full-width{
     transition: all 0.2s ease-out;
 }
 
-.left-column-full ul.level_1 > li.has-chidlren:hover {
+.menu-container .left-column-full ul.level_1 > li.has-chidlren:hover {
     padding-left:40px;
 }
-.left-column-full ul.level_1 > li.has-chidlren:hover > a:before{
+.menu-container .left-column-full ul.level_1 > li.has-chidlren:hover > a:before{
     opacity: 0;
     visibility: hidden;
     right: 5px;
 }
-.left-column-full li a > img.icon {
+.menu-container .left-column-full li a > img.icon {
     padding-right: 5px;
     margin-top: -5px;
 }
 
-.left-column-full ul.level_1 > li.has-chidlren:hover > a:after{
+.menu-container .left-column-full ul.level_1 > li.has-chidlren:hover > a:after{
     opacity: 1;
     visibility: visible;
 }
-.left-column-full ul.level_1 > li.has-chidlren > a:after {
+.menu-container .left-column-full ul.level_1 > li.has-chidlren > a:after {
     display: block;
     position: absolute;
     top: 20px;
@@ -357,6 +358,123 @@ ul.level_0 > li.full-width{
     visibility: hidden;
 }
 
-.product-detail > a {
+.menu-container .product-detail > a {
     display: none;
+}
+
+.megamenu-mobile{
+    background: rgb(51, 51, 51);
+}
+
+
+.megamenu-mobile ul {
+	list-style: none;
+    padding: 0px;
+    list-style-type: none;
+    position: relative;
+}
+
+.megamenu-mobile a {
+    padding: 15px 15px;
+    display: block;
+}
+.megamenu-mobile a > img.icon{
+    padding-right: 10px;
+}
+
+/* .megamenu-mobile ul li {
+    border-top: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+    
+} */
+
+.megamenu-mobile  li.non-border {
+    border: none;
+}
+
+.megamenu-mobile li {
+    position: relative;
+}
+
+.megamenu-mobile ul li ul{
+    display: none;
+}
+
+.megamenu-mobile .expand-button {
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 70px;
+}
+
+.megamenu-mobile .expand-button:before {
+    content: "+";
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 20px;
+}
+.megamenu-mobile .active > .expand-button:before {
+    content: "-";
+    font-size: 30px;
+}
+.megamenu-mobile li.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.megamenu-mobile ul.level_0 > li > a {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.megamenu-mobile li.active > a {
+    background: #fbfbfb;
+    color: #222;
+}
+
+.megamenu-mobile li.active li {
+    background: white;
+}
+
+.megamenu-mobile .col-sm-3, .megamenu-mobile .col-sm-4, .megamenu-mobile .col-sm-5{
+    padding-left: 0px;
+    padding-right: 0px;
+} 
+
+.megamenu-mobile li {
+    border-top: 1px solid #eaeaea;
+   
+}
+.megamenu-mobile ul.level_0 li:first-child{
+    border-top: none;
+}
+
+.megamenu-mobile ul {
+    transition: max-height 0.2s ease-out;
+    overflow: hidden;
+}
+
+@media (min-width: 768px){
+    .megamenu-mobile li.col-sm-3 ul, .megamenu-mobile li.col-sm-5 ul {
+        display: block;
+    }
+    .megamenu-mobile li.col-sm-3 a.expand-button, .megamenu-mobile li.col-sm-5 a.expand-button{
+        display: none;
+    }
+    .megamenu-mobile .col-sm-3.active > a {
+        background: white;
+    }
+    .megamenu-mobile .col-sm-3.active > ul {
+        display: block;
+    }
+
+    .megamenu-mobile li.col-sm-3, .megamenu-mobile li.col-sm-3 li,
+    .megamenu-mobile li.col-sm-4, .megamenu-mobile li.col-sm-4 li,
+    .megamenu-mobile li.col-sm-5, .megamenu-mobile li.col-sm-5 li {
+        border-top: none;
+    }
 }
