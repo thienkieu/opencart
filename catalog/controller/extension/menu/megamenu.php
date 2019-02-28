@@ -6,7 +6,8 @@ class ControllerExtensionMenuMegamenu extends Controller {
 		$base64 = base64_decode($results['tree']);
 		$json = json_decode($base64, true);
 		$data['all_category_width'] = 260;
-		$data['tree'] = $this->buildMobileMenu($json);
+		$data['tree'] =  $this->buildMenu($json);
+		$data['mobileTree'] = $this->buildMobileMenu($json);
 		$route = isset($this->request->get['route'])? $this->request->get['route']: 'common/home';
 		$data['show_default'] = $route == 'common/home' ? 'show-default' : '';
 		//echo "this is megamenu";die;

@@ -1,6 +1,7 @@
 <script src="catalog/view/javascript/owl.carousel.min.js" type="text/javascript"></script>		
 <link href="catalog/view/theme/default/stylesheet/owl.carousel.min.css" rel="stylesheet" type="text/css">       
 {{tree}}
+{{mobileTree}}
 
 <script type="text/javascript"><!--
 $('.owl-carousel').owlCarousel({
@@ -20,22 +21,11 @@ $('.owl-carousel').owlCarousel({
 		}
 	});
 
-	function updateParentHeight(el){
-		var parentElement = el.parentElement.parentElement;			
-		if (!parentElement.classList.contains('level_0')){
-			console.log( parentElement);
-			console.log( parentElement.scrollHeight);
-			parentElement.style.maxHeight = 'initial';
-			updateParentHeight(parentElement);
-		}
-	}
-
 	var coll = document.getElementsByClassName("expand-button");
 	var i;
 	for (i = 0; i < coll.length; i++) {
 		coll[i].addEventListener("click", function() {
-			var parentElement = this.parentElement;
-			
+			var parentElement = this.parentElement;			
 			var content = this.nextElementSibling;
 			
 			if (content.style.display === "block") {				
